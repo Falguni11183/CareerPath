@@ -1,0 +1,118 @@
+body{
+    background:#0f172a;
+    font-family:Poppins,sans-serif;
+}
+
+.result-card{
+    max-width:900px;
+    margin:auto;
+    background:#fff;
+    padding:50px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.2);
+    animation:fade .5s;
+}
+
+.career-name{
+    color:#2563eb;
+    font-size:40px;
+    font-weight:700;
+}
+
+.result-card p{
+    font-size:18px;
+    color:#555;
+    line-height:30px;
+}
+
+.score-box{
+    background:#f8fafc;
+    padding:30px;
+    border-radius:15px;
+}
+
+.progress{
+    height:18px;
+    border-radius:30px;
+}
+
+.progress-bar{
+    font-size:15px;
+    font-weight:600;
+}
+
+.roadmap{
+    background:#eff6ff;
+    padding:25px;
+    border-radius:15px;
+}
+
+.roadmap h3{
+    color:#1d4ed8;
+    margin-bottom:20px;
+}
+
+.roadmap p{
+    white-space:pre-line;
+    font-size:17px;
+}
+
+.btn{
+    padding:12px 35px;
+    border-radius:10px;
+    margin:10px;
+    font-weight:600;
+}
+
+.btn-primary{
+    background:#2563eb;
+    border:none;
+}
+
+.btn-primary:hover{
+    background:#1d4ed8;
+}
+
+.btn-success{
+    background:#16a34a;
+    border:none;
+}
+
+.btn-success:hover{
+    background:#15803d;
+}
+
+@keyframes fade{
+
+from{
+opacity:0;
+transform:translateY(25px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+@media(max-width:768px){
+
+.result-card{
+padding:30px;
+}
+
+.career-name{
+font-size:28px;
+}
+
+.result-card p{
+font-size:16px;
+}
+
+.btn{
+width:100%;
+margin-top:15px;
+}
+
+}
